@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:aquamarine;
+    font-size: 45px;
+    font-family:cursive ;
+    color: plum;
+    
+
+}
+nav{
+    background-color: crimson;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blueviolet;
+    font-size: larger;
+    font-weight: bold;
+}
+nav a{
+    margin: 50px;
+    font-size: 25px;
+    text-decoration:none;
+    color:black;
+    font-family:cursive;
+}
+nav a:hover{
+    background-color: pink;
+    border-radius:20px;
+    padding:5px;
+}
+nav a:active{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+body{
+    background-color: bisque;
+    font-size: larger;
+    font-family: cursive;
+    position: relative;
+    color: red;
+    
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-top:230px;
+    height:100px;
+    padding-top:20px;
+    height:100px ;
+    position: absolute;
+    bottom:0px;
+    width:100%;
+   
+}

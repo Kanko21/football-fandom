@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="icon" href="footballfandom.png" type="image/png">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <style>
+    
+
+      fieldset {
+         background-color: azure;
+      }
+
+      body {
+         background-image: url("https://images.livemint.com/img/2022/12/06/1600x900/Stadium_974_1670308763958_1670308770302_1670308770302.jpg");
+         background-size:cover;
+         background-repeat:no-repeat;
+         height:100vh;
+
+      }
+      
+
+      fieldset {
+         color: aqua;
+
+      }
+
+      button {
+         color: red;
+      }
+      .booking{
+       width:50%;
+       background-color:aquamarine;
+       padding:20px;
+       margin-top:40px;
+       box-shadow: inset 10px 10px 10px orangered;
+      }
+   </style>
+</head>
+
+<body>
+   <header>
+      <h1>Football Fandom</h1>
+   </header>
+   <nav>
+      <a href="index.html">Home</a>
+      <a href="histoty.html">History</a>
+      <a href="facts.html">facts</a>
+      <a href="players.html">Players</a>
+      <a href="stadium.html">Stadium</b></a> 
+   </nav>
+
+   <center>
+      <marquee><h1 style="background-color: blueviolet; width:800px; margin-top:40px ; font-size:40px;">STADIUM BOOKING</h1></marquee> 
+      <div class="booking">
+<form>
+            <!-- <fieldset> -->
+               
+                  <!-- <legend>STADIUM BOOKING</legend> -->
+               
+            <label for="name1">Firstname</label>
+            <input type="text" id="name1">
+            <br>
+            <label for="lname">Lastname</label>
+            <input type="text" id="lname">
+            <br>
+            <label for="enam">Email</label>
+            <input type="email" id="enam">
+            <br>
+            <label for="am">phone-number</label>
+            <input type="number" id="am">
+            <br>
+            <label for="pin">Security-pin</label>
+            <input type="password" id="pin">
+            <br>
+            <label for="pin1">credit-card</label>
+            <input type="password" id="pin1">
+            <br>
+            <label for="pass1">Password</label>
+            <input type="password" id="pass1">
+            <br>
+            <label for="pass2">confirm-password</label>
+            <input type="password" id="pass2"><br>
+
+
+            <br>
+            <button style="height:40px; width:200px; border-radius:30px; background-color: darkorange; color:white; font-weight:bold; font-size:20px; cursor:pointer;"onclick="check()">SUBMIT</button>
+         <!-- </fieldset> -->
+      </form>
+   </div>
+      <footer>
+         <h4>Copyright &copy;- All Right Reserved</h4>
+         <h3>Terms And Condition</h3>
+         
+      </footer>
+   </center>
+   <script>
+      function check() {
+
+         var x = document.getElementById("pass1").value;
+         var y = document.getElementById("pass2").value;
+         if (x == y) {
+            alert("thank you for booking. please wait as our team will soon call you");
+         }
+         else {
+            alert
+               ("incorrect password please try again")
+         }
+      }
+
+
+   </script>
+
+
+</body>
+
+</html>
